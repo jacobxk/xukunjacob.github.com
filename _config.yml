@@ -1,6 +1,5 @@
 markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://yihui.name/cn
-author: 谢益辉
 pygments: true
-
+permalink: /:year/:month/:day/:title.html
+name: setImpl
+markdown: maruku
