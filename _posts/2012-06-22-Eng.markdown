@@ -1,6 +1,6 @@
 ---
 title: Eng
-layout: post
+layout: page
 guid: urn:uuid:c2e0c6f9-12bf-4162-9587-aa5de425d646
 tags:
   - 
