@@ -1,0 +1,13 @@
+---
+title: comment
+layout: post
+comment: true
+comments: true
+guid: urn:uuid:23e40423-f4a7-4293-a337-a203161437fb
+tags:
+  - 
+---
+
+Chinese test
+中文测试
+评论测试
