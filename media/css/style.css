@@ -17,8 +17,8 @@ a {
     color: #eeeeee; }
 
 * {
-  margin: 0;
-  padding: 0; }
+  margin: 2;
+  padding: 2; }
 
 body {
   font-size: 14px;
@@ -48,7 +48,7 @@ header {
   box-shadow: #999 1px 0px 4px; }
 
 #header {
-  width: 800px;
+  width: 600px;
   margin: 0 auto; }
   #header a {
     color: #d9d9d9; }
@@ -60,13 +60,13 @@ header {
   #header nav {
     display: inline-block; }
     #header nav a {
-      margin: 0 .5em;
+      margin: 2 2em;
       display: inline-block;
       font-family: "Electrolize", sans-serif;
       text-transform: uppercase; }
 
 .content {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.7em;
@@ -76,16 +76,16 @@ header {
     .content a:hover {
       color: #dd0000; }
   .content img {
-    max-width: 500px;
+    max-width: 600px;
     display: block;
-    margin: .5em auto;
+    margin: 2em auto;
     -webkit-box-shadow: #999 1px 1px 4px;
     -moz-box-shadow: #999 1px 1px 4px;
     box-shadow: #999 1px 1px 4px; }
   .content p {
     padding: .7em 0; }
   .content pre code {
-    margin: 1em 0;
+    margin: 2em 2;
     font-size: 13px;
     font-family: Menlo, monospace;
     line-height: 1.6;
@@ -94,8 +94,8 @@ header {
   .content blockquote {
     display: block;
     text-align: justify;
-    border-left: 4px solid #eeeeee;
-    margin: 1em 0em;
+    border-left: 10px solid #eeeeee;
+    margin: 2em 2em;
     padding-left: 1.5em; }
     .content blockquote p {
       margin: 0;
@@ -142,7 +142,7 @@ hr {
   border-bottom: 1px dashed #f9f9f9; }
 
 footer {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   display: block;
   font-family: "Cuprum";
