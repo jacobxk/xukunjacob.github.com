@@ -66,7 +66,7 @@ header {
       text-transform: uppercase; }
 
 .content {
-  width: 800px;
+  width: 500px;
   margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.7em;
@@ -76,7 +76,7 @@ header {
     .content a:hover {
       color: #dd0000; }
   .content img {
-    max-width: 800px;
+    max-width: 500px;
     display: block;
     margin: .5em auto;
     -webkit-box-shadow: #999 1px 1px 4px;
@@ -142,7 +142,7 @@ hr {
   border-bottom: 1px dashed #f9f9f9; }
 
 footer {
-  width: 800px;
+  width: 500px;
   margin: 0 auto;
   display: block;
   font-family: "Cuprum";
