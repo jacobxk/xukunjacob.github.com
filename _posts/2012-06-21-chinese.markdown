@@ -1,6 +1,7 @@
 ---
 title: 中文标题测试
 layout: post
+comments: true
 guid: urn:uuid:7ec69d6e-c05d-4dbe-847e-2573baf033d3
 tags:
   -pk1 
