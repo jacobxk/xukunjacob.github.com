@@ -1,5 +1,5 @@
 ---
-title: about
+title: CURRICULUM VITAE
 layout: page
 ---
 
