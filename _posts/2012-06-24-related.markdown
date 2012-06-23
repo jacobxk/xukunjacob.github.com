@@ -9,3 +9,9 @@ tags:
 
 测试是否能够正常现实Related
 Related AA日头
+
+	R
+	X <- rnorm(100)
+	plot(x)
+	
+
