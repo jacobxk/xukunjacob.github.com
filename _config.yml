@@ -1,6 +1,6 @@
 markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://xukun.name
-author: XU, Kun Jacob
 pygments: true
-
+permalink: /:year/:month/:day/:title.html
+url: http://xukun.name
+name: XU, Kun Jacob
+markdown: rdiscount
