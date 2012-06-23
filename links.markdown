@@ -3,6 +3,12 @@ title: links
 layout: page
 ---
 
+About me:
+[Email](xukunjacob@gmail.com)
+[Weibo](weibo.com/jkxu)  
+
+
+Friends:(to be revised)
 [Beautifully Imperfect](http://becky.im)  
 [D&amp;V](http://kaix.in/daddy)  
 [fairystreet](http://fairystreet.com)  
@@ -24,4 +30,3 @@ layout: page
 [睡到25点](http://www.voidman.com)  
 [辞不达意](http://joyus.org)  
 
-*# sort -f*
