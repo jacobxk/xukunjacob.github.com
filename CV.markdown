@@ -7,6 +7,7 @@ layout: page
 
 E-mail: xukunjacob@gmail.com 
 
+---
 ##Work Experience 
 ####Research Assistant, Assessment Research Center, HKIEd, from July 2010 to present. (Advisor: Prof. Magdalena Mo Ching Mok).
 
@@ -20,6 +21,7 @@ Baseline assessment in mathematics for Hong Kong and Macau students (Assessment 
 
 Psychological assessment for about 40,000 teachers and students in earthquake disaster region in Sichuan province; Clinical interviews for PTSD or depressive teachers or students; Psychological assessment training courses for about 500 teachers (writing training manual, school visiting) .
 
+---
 ##Internship Experience 
 ####Administrator of psychological lab, teaching assistant of Experimental Psychology, Beijing Normal University (Zhuhai), from Sep 2007 to Feb 2008 (Advisor: Dr. Jianguo Peng)
 
@@ -31,6 +33,7 @@ Develop the Chinese Version of Webster Intelligence Scale for Children in Editio
 
 ####Principle Investigator, Employment Stress of College Students in Beijing Normal University (Zhuhai) Research Project, from Mar 2007 to June 2007.
 
+---
 ##Publications or Conference Papers 
 Xu, K. J. & Mok, M. M. C. (Accepted). Assessing dimensionality using Rasch rating scale model. The 76th Annual and the 17th International Meeting of the Psychometric Society, Hong Kong.
 
@@ -42,11 +45,13 @@ Martin, A.J., Liem, G.A.D., Mok, M., & Xu, J. (2011). The cumulative and joint r
 
 Mok, M. M. C., Ting, Y.C., Ho, H., Wong, Y. H., Tse, C. N., Xu, K., Yao, J. (in press). SP Xpress User Manual. Hong Kong: Yi Wei Publisher.
 
+---
 ##Master Thesis 
 Formalizing and Application of Multilevel One Parameter Logistic Ability-Based Guessing Model. (Supervisor: Prof. Wen-Chung Wang)
 
 Assessing Dimensionality Using Rasch Rating Scale Model. (Supervisor: Prof. Magdalena Mok)
 
+---
 ##Skills 
 Proficiency with MATLAB and R Language Programming.
 
