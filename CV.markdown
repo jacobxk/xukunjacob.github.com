@@ -8,7 +8,7 @@ layout: page
 E-mail: xukunjacob@gmail.com 
 
 ---
-##Work Experience 
+##Work Experience  
 
 ####Research Assistant, Assessment Research Center, HKIEd, from July 2010 to present. (Advisor: Prof. Magdalena Mo Ching Mok).
 Vertical scaling of mathematics for Hong Kong students (Monte Carlo simulation studies, empirical data analysis) ; Optimizing of learning for Hong Kong students (item banking, data analysis and scale development) ; Civic Education research group based on IEA ICCS 2009; Secondary research based on PISA 2003 (data preparation and initial analysis); APASO II training course; Optimizing Assessment for Learning Using SP Xpress® in E-Reporting.
@@ -33,21 +33,21 @@ Develop the Chinese Version of Webster Intelligence Scale for Children in Editio
 ---
 ##Publications or Conference Papers 
 
-Xu, K. J. & Mok, M. M. C. (Accepted). Assessing dimensionality using Rasch rating scale model. The 76th Annual and the 17th International Meeting of the Psychometric Society, Hong Kong.
-Zhao, N. N., Valcke, M., Desoete, A., Verhaeghe, J., & Xu, K. (Accepted). A multilevel analysis on predicting mathematics performance in Chinese primary schools: Implications for practice. The Asia-Pacific Education Researcher. 
-Zhao, N.N., Valcke, M., Desoete, A., Verhaeghe, J., & Xu, K. (Revised & Resubmitted). Design, development and calibration of an item bank for mathematics assessment in China: applying IRT analysis. Asia Pacific Journal of Education. 
-Martin, A.J., Liem, G.A.D., Mok, M., & Xu, J. (2011). The cumulative and joint roles of self-efficacy and problem solving in predicting achievement amongst immigrant students. Poster presented at Sixth Self Biennial International Conference, University Laval, Canada.
+Xu, K. J. & Mok, M. M. C. (Accepted). Assessing dimensionality using Rasch rating scale model. The 76th Annual and the 17th International Meeting of the Psychometric Society, Hong Kong.  
+Zhao, N. N., Valcke, M., Desoete, A., Verhaeghe, J., & Xu, K. (Accepted). A multilevel analysis on predicting mathematics performance in Chinese primary schools: Implications for practice. The Asia-Pacific Education Researcher.  
+Zhao, N.N., Valcke, M., Desoete, A., Verhaeghe, J., & Xu, K. (Revised & Resubmitted). Design, development and calibration of an item bank for mathematics assessment in China: applying IRT analysis. Asia Pacific Journal of Education.  
+Martin, A.J., Liem, G.A.D., Mok, M., & Xu, J. (2011). The cumulative and joint roles of self-efficacy and problem solving in predicting achievement amongst immigrant students. Poster presented at Sixth Self Biennial International Conference, University Laval, Canada.  
 Mok, M. M. C., Ting, Y.C., Ho, H., Wong, Y. H., Tse, C. N., Xu, K., Yao, J. (in press). SP Xpress User Manual. Hong Kong: Yi Wei Publisher.
 
 ---
 ##Master Thesis 
 
-Formalizing and Application of Multilevel One Parameter Logistic Ability-Based Guessing Model. (Supervisor: Prof. Wen-Chung Wang)
+Formalizing and Application of Multilevel One Parameter Logistic Ability-Based Guessing Model. (Supervisor: Prof. Wen-Chung Wang)  
 Assessing Dimensionality Using Rasch Rating Scale Model. (Supervisor: Prof. Magdalena Mok)
 
 ---
 ##Skills 
-Proficiency with MATLAB and R Language Programming.
-Proficiency with IRT software: Winsteps, ConQuest, BILOG, NOHARM, WinBUGS/OpenBUGS, etc.
-Proficiency with statistical computer programs, such as SPSS, Amos, Mplus, MLwin, HLM, etc.
-General computer skills, reference management software, Microsoft office, TeX/LaTeX, etc.
+Proficiency with MATLAB and R Language Programming.  
+Proficiency with IRT software: Winsteps, ConQuest, BILOG, NOHARM, WinBUGS/OpenBUGS, etc.  
+Proficiency with statistical computer programs, such as SPSS, Amos, Mplus, MLwin, HLM, etc.  
+General computer skills, reference management software, Microsoft office, TeX/LaTeX, etc.  
