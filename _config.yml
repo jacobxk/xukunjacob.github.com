@@ -2,5 +2,5 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
 url: http://xukun.name
-name: XU, Kun Jacob
+name: XU Kun Jacob
 markdown: rdiscount
