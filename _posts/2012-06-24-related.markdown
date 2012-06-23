@@ -1,0 +1,11 @@
+---
+title: 中文标题测试
+layout: post
+guid: urn:uuid:3a43c83a-acbb-4f02-840f-8111b4ddca35
+tags:
+  -Testing
+---
+
+
+测试是否能够正常现实Related
+Related AA日头
