@@ -13,3 +13,29 @@ For quotation:
 > 2. Two
 >	rnorm(100)
 >
+hello wold jjkjlkj we are not that good!
+
+I don't care what is that mean.
+你可以實用這個軟件來完成很多都事情。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
