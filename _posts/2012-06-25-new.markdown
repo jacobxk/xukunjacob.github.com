@@ -1,28 +1,17 @@
 ---
-title: A New Day
+title: TODO LIST
 layout: post
 guid: urn:uuid:64ee643b-2173-40cc-b988-3815a280a905
 tags:
-  - hello world
+  - Research
 ---
 
+不知不覺又到AERA和NCME投稿期。
 
-asfdj lka sjfkl困了就睡阿德里開發快速拉動分釐卡十分可憐快樂三分接啊康師傅將拉開三分盧卡斯房的徠卡是阿斯的法蘭克啊三分離開啊離開三分卡薩的瘋狂啦舒服多了 斯卡拉的飯卡三分的離開啊斯洛伐克卡洛斯分盧卡斯得分率啊身份啊死了看到瘋狂拉薩分開啊三分離開阿斯利豐盧卡斯對方盧卡斯分釐卡啊三分了阿倫三分的拉薩弗拉手放開啊三分離開浪費阿隆索的放假啦速度放假阿薩德法律阿三兩地分居
-
-阿薩德放了假阿克蘇的非拉屎得分率阿斯蒂芬法律撒得分率阿薩德法律阿斯蒂芬
-
-
-啊了快速大幅拉屎瘋啦三分的卡拉斯對方盧卡斯發看來阿斯多拉風啦三分拉屎發生了奮鬥
 ---
 
-啦考四級的法蘭克阿薩德分開了阿薩德法律
-阿薩德解放了阿斯蒂芬啊加速度菲拉斯
-
-
-啊啊速度家樂福拉什科大幅拉升分釐卡撒旦法
-
-阿薩德李開復阿斯瘋了阿薩德聯發科啊斯科拉的非阿斯利的
-
-發撒旦快樂放假啊歲打飛機啊歲獨立房間阿斯蘭蒂夫阿斯的浪費
-
-阿薩德放假啊綠色房的卡拉司法局卡拉司法局拉薩開發的就離開撒放假了卡死覺得分開了阿薩德法律啊司機離開對方就卡死了對方盧卡斯房的拉薩弗拉三等獎瘋狂阿薩德法律啊死機了的瘋狂阿萊克斯分盧卡斯的風景盧卡斯當減肥啦快速大幅阿隆索
+* Dimension Coefficient (Dimensionality Tendency)
+* Posterior Predictive Model Checking for dimensionality checking
+* Detecting Differential Item Functioning for Missing Data (CAT)
+* Z-G idea point model for multidimensional CAT
+* Z-G model for polytomous items
