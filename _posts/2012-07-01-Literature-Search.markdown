@@ -1,5 +1,5 @@
 ---
-title: Stradege for Literature Searching
+title: Stratege for Literature Searching
 layout: post
 guid: urn:uuid:0caccc29-6a2b-414c-be41-f5e8a396ae92
 tags:
