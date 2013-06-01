@@ -1,7 +1,7 @@
 ---
 title: 學會堅持做事
 layout: post
-guid: urn:uuid:c879d9ff-7167-4b2e-bb52-646adf7b85f9
+guid: urn:uuid:
 tags:
   - gym
   - academic
