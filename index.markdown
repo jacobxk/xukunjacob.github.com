@@ -29,6 +29,8 @@ layout: default
   </ul>
  <div class="divider"></div>
   <ul class="listing main-listing">
-    <li class="listing-seperator"><a href="/archive.html">READ MORE</a></li>
+    <li class="listing-seperator">
+	<div style="margin: 0 auto; text-align: center">	
+	<a href="/archive.html">READ MORE</a></div></li>
   </ul>
 </div>
