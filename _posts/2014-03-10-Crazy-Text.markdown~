@@ -1,5 +1,5 @@
 ---
-title: Crazy-Text
+title: Crazy Text 中文測試
 layout: post
 guid: urn:uuid:ba6af63c-dd46-4cc8-8ca9-bcb732bad9b2
 tags:
