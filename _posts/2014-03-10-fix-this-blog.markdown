@@ -9,7 +9,7 @@ tags:
 好久沒有更新這裏了。在換成了Linux系統之後，很長一段時間都懶得去重新設定jekyll和github，今天沒有出門閒到蛋疼就無意中想起這裏，鼓搗了一下。
 
 發post的命令備忘
-```github
+```ruby
 rake post[testing]
 git add .
 git commit -m "testing"
