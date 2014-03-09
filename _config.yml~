@@ -1,10 +1,10 @@
 markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
-name: XU Kun Jacob
+name: 𨑨迌
 markdown: rdiscount
 
-author: "𨑨迌"
+author: "XU Kun Jacob"
 atom-baseurl: "http://xukun.name"
 disqus: "xukun"
 
