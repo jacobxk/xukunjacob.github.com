@@ -6,6 +6,7 @@ markdown: rdiscount
 
 author: "XU Kun Jacob"
 atom-baseurl: "http://xukun.name"
+disqus: "xukun"
 
 navigations:
   - title: Archive
