@@ -2,10 +2,10 @@
 layout: page
 ---
 
-<img style="float: top" src="media/pictures/me_small.png" />
+
 
 #XU, Kun *Jacob* 徐 坤
-
+<img style="float: right" src="media/pictures/me_small.png" />
 E-mail: xukunjacob at gmail.com 
 
 

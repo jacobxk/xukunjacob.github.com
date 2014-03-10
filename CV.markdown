@@ -5,12 +5,10 @@ layout: page
 
 
 #XU, Kun *Jacob* 徐 坤
-<img style="float: right" src="media/pictures/me_small.png" />
+
 E-mail: xukunjacob at gmail.com 
 
-
-
-
+<img style="float: right" src="media/pictures/me_small.png" />
 I am a PhD candidate in the field of educational measurement, or say   psychometrics. My research insterests are Rasch measurment, item response theory, multilevel analysis. You can download my [**Curriculum vitae**](/CV.pdf) for more information about my research.
 
 
