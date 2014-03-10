@@ -10,10 +10,16 @@ tags:
 
 發post的命令備忘
 
-```ruby
-rake post[testing]
-git add .
-git commit -m "testing"
-git push origin master
-```
+	```ssh
+	rake post[testing]
+	
+	git add .
+	git commit -m "testing"
+	git push origin master
+	```
 
+	```R
+	a <- rnorm(100, 1, 0)
+	plot(a)
+
+	```
