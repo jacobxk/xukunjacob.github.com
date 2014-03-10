@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<img style="float: left" src="media/pictures/me_small.png" />
+<img style="float: right" src="media/pictures/me_small.png" />
 
 #XU, Kun *Jacob* 徐 坤
 
