@@ -31,7 +31,7 @@ rnorm(100, 0, 1)
 plot()
 {% endhighlight %}
 
-{% highlight splus %}
+{% highlight S %}
 rnorm(100, 0, 1)
 plot()
 {% endhighlight %}
