@@ -2,8 +2,9 @@
 layout: page
 ---
 
+<img style="float: left" src="media/pictures/me_small.png" />
 
-#XU, Kun *Jacob* 徐坤
+#XU, Kun *Jacob* 徐 坤
 
 E-mail: xukunjacob at gmail.com 
 
