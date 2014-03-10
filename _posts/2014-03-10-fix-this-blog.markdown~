@@ -10,26 +10,15 @@ tags:
 
 發post的命令備忘
 
-
+{% highlight ssh %}
 	rake post[testing]
 	
 	git add .
 	git commit -m "testing"
 	git push origin master
-
-
-
-
-{% highlight ruby %}
-def foo
-  puts 'foo'
-end
 {% endhighlight %}
 
-{% highlight r %}
-rnorm(100, 0, 1)
-plot()
-{% endhighlight %}
+
 
 {% highlight S %}
 rnorm(100, 0, 1)
