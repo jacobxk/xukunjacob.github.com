@@ -2,19 +2,18 @@
 layout: page
 ---
 
-----
-----
 
-#XU, Kun Jacob
+#XU, Kun Jacob 徐坤
 
 E-mail: xukunjacob at gmail.com 
 
----
----
+-----------------------------------
+-----------------------------------
 
 I am a PhD candidate in the field of educational measurement, or say psychometrics. My research insterests are Rasch measurment, item response theory, multilevel analysis. You can download my [*Curriculum vitae*](/CV.pdf) for more information about my research.
 
----
-I enjoy programming when there are simulation studies in my research and thus I guess I will gradually become a programmer in the future. In my opinion, the most beautiful phrase is "YOU NEVER KNOW". Ya, I never know where I can reach leading by the life. But it is not a excuse to give up hard working I guess.
+
+
+I enjoy programming when there are simulation studies in my research and thus I guess I will gradually become a programmer in the future. In my opinion, the most beautiful phrase is "YOU NEVER KNOW". Ya, I never know where I will reach but it is not a excuse to give up.
 
 

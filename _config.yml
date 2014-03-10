@@ -15,12 +15,9 @@ navigations:
   - title: Tags
     class: fa fa-tags
     href: /tags.html
-  - title: CV
+  - title: About Me
     class: fa fa-user
     href: /CV.html
-  - title: Blogroll
-    class: fa fa-link
-    href: /links.html
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
