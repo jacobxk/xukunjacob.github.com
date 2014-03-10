@@ -19,6 +19,5 @@ tags:
 
 
 
-	a <- rnorm(100, 1, 0)
-	plot(a)
+
 

@@ -17,3 +17,21 @@ tags:
 	git commit -m "testing"
 	git push origin master
 
+
+
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{% highlight r %}
+rnorm(100, 0, 1)
+plot()
+{% endhighlight %}
+
+{% highlight splus %}
+rnorm(100, 0, 1)
+plot()
+{% endhighlight %}
