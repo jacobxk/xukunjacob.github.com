@@ -18,12 +18,3 @@ tags:
 	git push origin master
 
 
-
-{% highlight r %} 
-test <- function{
-	print(1:10)
-}
-rnorm(100, 0, 1)
-a <- runif(200, 1, 3)
-plot(a)
-{% endhighlight %}
