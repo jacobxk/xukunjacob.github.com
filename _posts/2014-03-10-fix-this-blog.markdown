@@ -17,8 +17,3 @@ tags:
 	git commit -m "testing"
 	git push origin master
 
-
-
-	a <- rnorm(100, 1, 0)
-	plot(a)
-
