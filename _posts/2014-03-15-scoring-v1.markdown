@@ -1,0 +1,161 @@
+---
+title: Scoring v1
+layout: post
+guid: urn:uuid:cea5c4c6-fa23-4483-a89e-7fbd60cf4d37
+tags:
+  - 
+---
+
+Questionnaire Scoring Guideline
+========================================================
+
+# Description of Questionnaire
+
+There are eight items in the questionnaire (refer to Appendix A). Questions 1 to 4 are related to the personal background information, such as age, height, imcomes and educational attainment. Questions 5 to 8 are related to the personality types. For each question, there are three parts which are asking information about the user herself, the user's potential partner, and a Likert-type scale about the importance of the question per se, respecitvely.
+
+The database which collected the responses of each user should including the following variables at least.
+- user_id
+- gender
+- Q1a to Q8c: 28 variables in total
+
+Now, let generate some artifact data on these variables.
+
+
+
+```r
+setwd("/home/jacobxu/Dropbox/Meetapp")
+data <- read.table("sample_data.csv", header = T, sep = ",")
+data.frame(t(data))
+```
+
+```
+##             X1   X2     X3     X4     X5     X6     X7
+## user_id   1001 1002   1003   1004   1005   1006   1007
+## gender  Female Male Female Female Female Female Female
+## Q1a         23   27     23     27     23     27     23
+## Q1b_l       25   20     15     10     23     24     25
+## Q1b_u       30   30     26     27     28     29     30
+## Q1c         10   50     10     50      0     10    250
+## Q2a        162  174    186    155    165    169    178
+## Q2b_l      170  160    170    171    180    173    174
+## Q2b_u      180  172    175    176    177    178    179
+## Q2c         50   10    250     10     50    250     10
+## Q3a          3    3      3      2      4      1      4
+## Q3b_l        3    2      2      3      3      1      2
+## Q3b_u        4    3      3      4      4      4      4
+## Q3c         50   50     50     10    250     10      0
+## Q4a          1    2      1      2      1      1      2
+## Q4b_l        2    2      2      1      1      1      2
+## Q4b_u        4    3      2      3      4      1      4
+## Q4c        250   10     10    250     50     10      0
+## Q5a          1    2      2      1      1      2      1
+## Q5b          2    1      2      1      1      2      2
+## Q5c         50   50    250     10      0     50    250
+## Q6a          2    1      2      1      1      2      2
+## Q6b          1    2      1      2      2      2      1
+## Q6c         50  250     10     50    250    250    250
+## Q7a          1    1      1      1      2      2      2
+## Q7b          1    2      2      2      1      2      2
+## Q7c          0   50    250     50     10      0     10
+## Q8a          1    2      2      2      2      1      1
+## Q8b          2    1      1      2      1      2      1
+## Q8c        250  250     50     10     50      0    250
+```
+
+```r
+attach(data)
+```
+
+
+# Scoring according to the OKCupid's method
+
+For the given two users' data presented above, 
+
+1. the **weighting** of each question was evaluated in term of the **importance**.
+
+
+## Implimentation in R
+
+
+
+```r
+
+simi <- function(i = 1, j = 2) {
+    if (data$gender[i] == data$gender[j]) {
+        print("So gay!")
+    } else {
+        #### Scoring function ####
+        scoring <- function(i = 1, j = 2) {
+            score <- vector("numeric", 8)
+            # calculate person[i]'s score according to person[j]'s criteria
+            ifelse(Q1a[i] >= Q1b_l[j] & Q1a[i] <= Q1b_u[j], score[1] <- Q1c[j], 
+                score[1] <- 0)
+            ifelse(Q2a[i] >= Q2b_l[j] & Q2a[i] <= Q2b_u[j], score[2] <- Q2c[j], 
+                score[2] <- 0)
+            ifelse(Q3a[i] >= Q3b_l[j] & Q3a[i] <= Q3b_u[j], score[3] <- Q3c[j], 
+                score[3] <- 0)
+            ifelse(Q4a[i] >= Q4b_l[j] & Q4a[i] <= Q4b_u[j], score[4] <- Q4c[j], 
+                score[4] <- 0)
+            
+            ifelse(Q5a[i] == Q5b[j], score[5] <- Q5c[j], score[5] <- 0)
+            ifelse(Q6a[i] == Q6b[j], score[6] <- Q6c[j], score[6] <- 0)
+            ifelse(Q7a[i] == Q7b[j], score[7] <- Q7c[j], score[7] <- 0)
+            ifelse(Q8a[i] == Q8b[j], score[8] <- Q8c[j], score[8] <- 0)
+            
+            # person[i] was satisfying 'percent' according to person[j]'s criteria
+            total <- sum(Q1c[j] + Q2c[j] + Q3c[j] + Q4c[j] + Q5c[j] + Q6c[j] + 
+                Q7c[j] + Q8c[j])
+            percent <- sum(score)/total
+            state <- paste("According to the criteria of User", user_id[j], 
+                ", User", user_id[i], "was satisfying", round(percent, 4) * 
+                  100, "percentage!")
+            list(user_id[j], user_id[i], percent)
+        }
+        #### Similarity ####
+        cat("The similarity between User", user_id[i], "and User", user_id[j], 
+            "is", round(sqrt(scoring(i, j)[[3]] * scoring(j, i)[[3]]), 4) * 
+                100, "percent. \n")
+    }
+    
+}
+```
+
+
+
+
+```r
+## User 1 is a Female
+a <- c(1, 2, 3, 4, 5, 6, 7)
+for (i in a[!a == 1]) {
+    simi(1, a[i])
+}
+```
+
+```
+## The similarity between User 1001 and User 1002 is 95.74 percent. 
+## [1] "So gay!"
+## [1] "So gay!"
+## [1] "So gay!"
+## [1] "So gay!"
+## [1] "So gay!"
+```
+
+```r
+
+## User 2 is a Male
+a <- c(1, 2, 3, 4, 5, 6, 7)
+for (i in a[!a == 2]) {
+    simi(2, a[i])
+}
+```
+
+```
+## The similarity between User 1002 and User 1001 is 95.74 percent. 
+## The similarity between User 1002 and User 1003 is 56.11 percent. 
+## The similarity between User 1002 and User 1004 is 40.82 percent. 
+## The similarity between User 1002 and User 1005 is 32.31 percent. 
+## The similarity between User 1002 and User 1006 is 68.37 percent. 
+## The similarity between User 1002 and User 1007 is 82.64 percent.
+```
+
+
