@@ -5,7 +5,7 @@ guid: urn:uuid:7f44835e-9e40-467d-831f-9ff948313cc1
 tags:
   - vim
 ---
-Here are some links for using R in VIM.
-[The VIM-R-plugin](http://www.lepem.ufc.br/jaa/r-plugin.html)
-[A /.vimrc sample](http://www.lepem.ufc.br/jaa/vim-r-plugin.html)
+Here are some links for using R in VIM.<br>
+- [The VIM-R-plugin](http://www.lepem.ufc.br/jaa/r-plugin.html)
+- [A /.vimrc sample](http://www.lepem.ufc.br/jaa/vim-r-plugin.html)
 
