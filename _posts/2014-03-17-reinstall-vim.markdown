@@ -6,6 +6,6 @@ tags:
   - vim
 ---
 Here are some links for using R in VIM.
-[The VIM-R-plugin]{http://www.lepem.ufc.br/jaa/r-plugin.html}
-[A /.vimrc sample]{http://www.lepem.ufc.br/jaa/vim-r-plugin.html}
+[The VIM-R-plugin](http://www.lepem.ufc.br/jaa/r-plugin.html)
+[A /.vimrc sample](http://www.lepem.ufc.br/jaa/vim-r-plugin.html)
 
