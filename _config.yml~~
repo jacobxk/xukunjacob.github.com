@@ -2,6 +2,7 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
 name: Příliš hlučná samota
+markdown: rdiscount
 
 author: "XK"
 atom-baseurl: "http://xukun.name"
@@ -14,7 +15,7 @@ navigations:
   - title: Tags
     class: fa fa-tags
     href: /tags.html
-  - title: Curriculum vitae
+  - title: CV
     class: fa fa-user
     href: /CV.html
   - title: Blogroll
