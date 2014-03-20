@@ -42,7 +42,7 @@ hr {
 
 a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
   text-decoration: none;
-  color: #bb2222; }
+  color: #0481d4; }
   a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
     color: #dd1144; }
 
@@ -157,7 +157,7 @@ article {
         color: #999999;
         margin: 0; }
         article .divider header #header h1 a i:hover, header #header h1 article .divider a i:hover, article .divider a i:hover {
-          color: #bb2222 !important; }
+          color: #0481d4 !important; }
   article .divider {
     position: relative;
     font-size: 1em;
