@@ -18,7 +18,7 @@
 body {
   font-size: 18px;
   font-family: "Quicksand", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro";
-  color: #050505;
+  color: #555;
   background-color: #f9f9f9; }
 
 ol, ul {
