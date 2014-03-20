@@ -8,7 +8,7 @@ tags:
   - BLOG
 ---
 
-I found an interesting website followed the responsive web framework by [spf13](www.spf13.com). A responsive website can offer the most appropriate appearance to different terminals, such as desktop, iPad and mobile phones. You can have a look on spf13 and adjust the width of your browser window. What happened? The layout was changed to fix the width! Coooool!
+I found an interesting website followed the responsive web framework by [spf13](https://www.spf13.com). A responsive website can offer the most appropriate appearance to different terminals, such as desktop, iPad and mobile phones. You can have a look on spf13 and adjust the width of your browser window. What happened? The layout was changed to fix the width! Coooool!
 
 The spf13 was powered by a blog system called HUGO. Umm, not come with a BOSS. I guess the "GO" means that it was developed by the famous Google GO programming language but I don't know how the "HU" came from. Anyway, I guess it is a good standing point for construct a more professional blog for planned website **MeetStuff.com**.
 
