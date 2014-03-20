@@ -9,13 +9,13 @@
  * |\.|._)._)
  * --------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Lusitana);
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Gilda Display);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 
 $page-width: 680;
-$font: "Lusitana", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro";
-$monospace: "Lusitana", monospace;
-$label-font: "Lusitana", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro";
+$font: "Gilda Display", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro";
+$monospace: "Gilda Display", monospace;
+$label-font: "Gilda Display", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro";
 $background-color: #f9f9f9;
 
 @mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
