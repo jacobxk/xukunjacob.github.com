@@ -120,7 +120,7 @@ ul.listing {
     ul.listing li.listing-seperator {
       font-family: "Scada", "Hiragino Sans GB", "Microsoft YaHei", "Source Code Pro"; }
       ul.listing li.listing-seperator:before {
-        content: "⭠ ";
+        content: "  ";
         color: #ccc; }
 
 article {
