@@ -66,7 +66,7 @@ h1, h2 {
   font-size: 1.4em; }
 
 header {
-  width: 1.0em;
+  width: 720px;
   margin: 0 auto;
   text-align: justify;
   margin: 3em auto; }
@@ -100,7 +100,7 @@ header {
       color: #ccc; }
 
 #content {
-  width: 1.0em;
+  width: 720px;
   margin: 0 auto;
   line-height: 2em; }
   #content .main-listing {
@@ -140,7 +140,7 @@ article {
       color: #999999;
       padding: .25em; }
   article .post img {
-    max-width: 1.0em;
+    max-width: 720px;
     display: block;
     margin: .5em auto; }
   article .comment {
@@ -179,7 +179,7 @@ article {
     margin-left: 1%; }
 
 footer {
-  width: 1.0em;
+  width: 720px;
   margin: 0 auto;
   display: block;
   color: #909090;
