@@ -1,0 +1,40 @@
+---
+title: Adapting APA6 Citation in Latex
+layout: post
+guid: urn:uuid:a0c3b738-f481-4a42-99a8-741ac77f7053
+tags:
+  - LaTeX
+  - knitr
+  - APA6
+  - dissertation
+---
+
+I was trying to writing my thesis with Sweave with R and compile it with knitr. Everything went smoothly except the citation. The default ```bibtex``` did not support the APA format satisfatraly without some packages like ```apacite```. However, the ```apacite``` was no longer in an active development status and it was not support the APA 6 formation.
+
+I digged in the Stack Exchange and found that there are two package recently available for the APA 6 format citation. One is ```apa6``` and the other is ```biblatex-apa```. 
+
+A short sample on the ```apa6``` package presented as the following.
+
+    \documentclass{apa6}
+    \usepackage[american]{babel}
+    \usepackage{csquotes}
+    \usepackage[style=apa,sortcites=true,sorting=nyt,backend=biber]{biblatex}
+    \DeclareLanguageMapping{american}{american-apa}
+
+    \addbibresource{ref.bib}
+
+    \usepackage{color}
+    \usepackage[colorlinks=true]{hyperref}
+
+    \begin{document}
+
+    Text is here\parencite{Reise2012}.
+    \textcite{Briggs2013a} claimed something.
+    
+    \nocite{*}
+    \printbibliography
+
+    \end{document}
+
+
+And a short sample on the ```biblatex-apa``` package presneted as the following.
