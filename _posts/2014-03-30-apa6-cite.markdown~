@@ -9,11 +9,11 @@ tags:
   - dissertation
 ---
 
-I was trying to writing my thesis with Sweave with R and compile it with knitr. Everything went smoothly except the citation. The default ```bibtex``` did not support the APA format satisfatraly without some packages like ```apacite```. However, the ```apacite``` was no longer in an active development status and it was not support the APA 6 formation.
+I was trying to draft my thesis with Sweave with R and compile it with knitr. Everything went smoothly except the citation. The default ```bibtex``` did not support the APA format satisfatraly without some packages like ```apacite```. However, the ```apacite``` was no longer in an active development status and it was not support the APA 6 formation.
 
 I digged in the Stack Exchange and found that there are two package recently available for the APA 6 format citation. One is ```apa6``` and the other is ```biblatex-apa```. 
 
-A short sample on the ```apa6``` package presented as the following.
+A short sample with the ```apa6``` package presented as the following.
 
     \documentclass{apa6}
     \usepackage[american]{babel}
@@ -37,4 +37,35 @@ A short sample on the ```apa6``` package presented as the following.
     \end{document}
 
 
-And a short sample on the ```biblatex-apa``` package presneted as the following.
+And here is a short sample with the ```biblatex-apa``` package.
+
+    ```tex
+    \documentclass{article}
+    \usepackage[american]{babel}
+    \usepackage{csquotes}
+    \usepackage[style=apa]{biblatex}
+
+    \DeclareLanguageMapping{english}{american-apa}
+
+    \usepackage{color}
+    \usepackage[colorlinks=true]{hyperref}
+
+    \addbibresource{ref.bib}
+
+    \begin{document}
+
+    Text is here\parencite{Reise2012}.
+    \textcite{Briggs2013a} claimed something.
+
+    \nocite{*}
+    \printbibliography
+
+    \end{document}
+    ```
+The only difference between this two packages on this short sample is that the ```\documentclass{}``` argument. The former fixed on a layout design specific for APA journal format or manuscript, while the later standed on the ```\LaTeX``` general layout and the article, report or books can be used for different purpose. Thus, the former might be more appropriate for manuscript preparation and the later for thesis.
+
+However, both of these two packages depenced on the ```biblatex``` package. The ```biblatex``` manual offered different document classes for purposes. Thus, it might be possible to release the restrition of document class by ```apa6```.
+
+---------------------------
+
+There is also a note on the package installations. That is, the ```biber``` has became the most popular backend for ```biblatex``` while the Ubuntu cran seems did not catch up with the newly upgrades. According to the official website, the current ```biber``` version is 1.8 now but the version obtained via ```apt-get``` is still 0.9.9. So a manual installation is needed. The same requirement also occured on the ```biblatex-apa``` package. 
