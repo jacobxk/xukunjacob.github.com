@@ -1,5 +1,5 @@
 ---
-title:Installation of HUGO
+title: Installation of HUGO
 layout: post
 guid: urn:uuid:d552da5d-5b2a-4f90-89a3-d932c71ea157
 tags:
