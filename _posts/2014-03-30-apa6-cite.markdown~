@@ -1,5 +1,5 @@
 ---
-title: Adapting APA6 Citation in Latex
+title: Adopting APA6 Citation in Latex
 layout: post
 guid: urn:uuid:a0c3b738-f481-4a42-99a8-741ac77f7053
 tags:
@@ -39,7 +39,7 @@ A short sample with the ```apa6``` package presented as the following.
 
 And here is a short sample with the ```biblatex-apa``` package.
 
-    ```tex
+    ```{tex}
     \documentclass{article}
     \usepackage[american]{babel}
     \usepackage{csquotes}
@@ -66,6 +66,6 @@ The only difference between this two packages on this short sample is that the `
 
 However, both of these two packages depenced on the ```biblatex``` package. The ```biblatex``` manual offered different document classes for purposes. Thus, it might be possible to release the restrition of document class by ```apa6```.
 
----------------------------
+---------------------------------------------------------------
 
 There is also a note on the package installations. That is, the ```biber``` has became the most popular backend for ```biblatex``` while the Ubuntu cran seems did not catch up with the newly upgrades. According to the official website, the current ```biber``` version is 1.8 now but the version obtained via ```apt-get``` is still 0.9.9. So a manual installation is needed. The same requirement also occured on the ```biblatex-apa``` package. 
