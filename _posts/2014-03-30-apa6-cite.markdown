@@ -13,7 +13,7 @@ I was trying to draft my thesis with Sweave with R and compile it with knitr. Ev
 
 I digged in the Stack Exchange and found that there are two package recently available for the APA 6 format citation. One is ```apa6``` and the other is ```biblatex-apa```. 
 
-A short sample with the ```apa6``` package presented as the following.
+[A short sample](/media/pictures/test1.pdf) with the ```apa6``` package presented as the following.
 
     \documentclass{apa6}
     \usepackage[american]{babel}
@@ -36,9 +36,8 @@ A short sample with the ```apa6``` package presented as the following.
 
     \end{document}
 
-![test_apa6](/media/pictures/test1.pdf)
 
-And here is a short sample with the ```biblatex-apa``` package.
+And here is [a short sample](/media/pictures/test.pdf) with the ```biblatex-apa``` package.
 
     \documentclass{article}
     \usepackage[american]{babel}
@@ -62,8 +61,6 @@ And here is a short sample with the ```biblatex-apa``` package.
 
     \end{document}
 
-
-![test_apa6](/media/pictures/test.pdf)
 
 The only difference between this two packages on this short sample is that the ```\documentclass{}``` argument. The former fixed on a layout design specific for APA journal format or manuscript, while the later standed on the ```\LaTeX``` general layout and the article, report or books can be used for different purpose. Thus, the former might be more appropriate for manuscript preparation and the later for thesis.
 
