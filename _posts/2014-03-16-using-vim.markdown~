@@ -1,9 +1,12 @@
 ---
-title: using-vim
+title: 學VIM
 layout: post
 guid: urn:uuid:b7a17d62-288c-4f5a-93e1-d8dca2971162
 tags:
-  - 
+  - vim
 ---
 
+昨天開始跟着Learn Python the Hard Way學Python，用了一下gEdit和sublime text都覺得不爽，開始學用VIM了。
 
+有人在知乎上問：哪些事是vim可以做而emacs做不到的？
+神回答：幫助烏干達的可憐兒童......

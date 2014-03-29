@@ -1,5 +1,5 @@
 ---
-title: Installation of HUGO
+title:Installation of HUGO
 layout: post
 guid: urn:uuid:d552da5d-5b2a-4f90-89a3-d932c71ea157
 tags:
@@ -16,16 +16,16 @@ However, when I try to install the HUGO in my Linux desktop, I countered many mi
 
 First, there are some dependencies of the HUGO. All of them can be installed via the Ubuntu apt-get function except the Google Go. After put the Go in a proper location, there is one more step--specify the path environment.
 
-
+{% highlight bash %}
     $ vim $HOME/.profile 
     $ export PATH=$PATH:/usr/local/go/bin 
-
+{% endhighlight %}
 
 Now we can check if the Go was installed correctly by running a hello world script.
 
 Second, install HUGO.
 
-
+{% highlight bash %}
     $ go get github.com/spf13/hugo 
     $ cd ~/hugo 
     $ sudo ln -s ~/hugo /usr/local/go/src/github.com/spf13/hugo 
@@ -35,14 +35,14 @@ Second, install HUGO.
 
     $ go install github.com/spf13/hugo/hugolib 
     $ go run main.go 
-
+{% endhighlight %}
 
 Third, we can try to run HUGO in a server model on the sample website which is also the HUGO official website.
 
-
+{% highlight bash %}
     $ cd /usr/local/bin 
     $ hugo server --source=/home/jacobxu/hugo/docs 
-
+{% endhighlight %}
 
 Then check to localhost:1313! Done!
 

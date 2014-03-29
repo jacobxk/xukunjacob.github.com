@@ -17,8 +17,8 @@ However, when I try to install the HUGO in my Linux desktop, I countered many mi
 First, there are some dependencies of the HUGO. All of them can be installed via the Ubuntu apt-get function except the Google Go. After put the Go in a proper location, there is one more step--specify the path environment.
 
 
-    $ vim $HOME/.profile <br>
-    $ export PATH=$PATH:/usr/local/go/bin <br>
+    $ vim $HOME/.profile 
+    $ export PATH=$PATH:/usr/local/go/bin 
 
 
 Now we can check if the Go was installed correctly by running a hello world script.
@@ -26,22 +26,22 @@ Now we can check if the Go was installed correctly by running a hello world scri
 Second, install HUGO.
 
 
-    $ go get github.com/spf13/hugo <br>
-    $ cd ~/hugo <br>
-    $ sudo ln -s ~/hugo /usr/local/go/src/github.com/spf13/hugo <br>
+    $ go get github.com/spf13/hugo 
+    $ cd ~/hugo 
+    $ sudo ln -s ~/hugo /usr/local/go/src/github.com/spf13/hugo 
 
-    $ go build -o hugo main.go <br>
-    $ sudo mv hugo /usr/local/bin <br>
+    $ go build -o hugo main.go 
+    $ sudo mv hugo /usr/local/bin 
 
-    $ go install github.com/spf13/hugo/hugolib <br>
-    $ go run main.go <br>
+    $ go install github.com/spf13/hugo/hugolib 
+    $ go run main.go 
 
 
 Third, we can try to run HUGO in a server model on the sample website which is also the HUGO official website.
 
 
-    $ cd /usr/local/bin <br>
-    $ hugo server --source=/home/jacobxu/hugo/docs <br>
+    $ cd /usr/local/bin 
+    $ hugo server --source=/home/jacobxu/hugo/docs 
 
 
 Then check to localhost:1313! Done!
