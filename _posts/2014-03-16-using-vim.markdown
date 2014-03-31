@@ -14,10 +14,10 @@ tags:
 update in 31Mar2014
 -----------------------
 Installed some plugins to VIM
--1. surround.vim
--2. repeat.vim
--3. matchit.vim/python_matchit.vim
--4. snipmte.vim
--5. nerd_tree.vim
+1.  surround.vim
+2.  repeat.vim
+3.  matchit.vim/python_matchit.vim
+4.  snipmte.vim
+5.  nerd_tree.vim
 
 
