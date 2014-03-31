@@ -11,8 +11,8 @@ tags:
 有人在知乎上問：哪些事是vim可以做而emacs做不到的？
 神回答：幫助烏干達的可憐兒童......
 
-update in 31Mar2014
------------------------
+### update in 31Mar2014
+
 Installed some plugins to VIM
 *   surround.vim
 *   repeat.vim
